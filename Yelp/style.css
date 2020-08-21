@@ -1,0 +1,195 @@
+*{
+  box-sizing: border-box;
+}
+
+header{
+  height: 800px;
+  background-image:  url(background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+.mobileHeader{
+  width: 100%;
+  height:100px;
+  background-color: red;
+  display: none;
+}
+.mobileHeader ul{
+  list-style: none;
+  display: none;
+  width: 100%;
+}
+.mobileHeader li{
+  display: inline-block;
+  float: left;
+  width: 33.3333%;
+}
+.mobileHeader img{
+  height: 60px;
+
+}
+.topBar{
+  width: 100%;
+  list-style: none;
+}
+.topBar li{
+  display: inline-block;
+  padding: 20px;
+}
+
+.topBar li a{
+  text-decoration: none;
+  color: white;
+}
+.logInButton{
+  margin-left: 60%;
+}
+.signUp{
+  border: 1px solid black;
+}
+
+.logo img{
+  width: 10%;
+  margin-top: 200px;
+}
+.categories{
+  list-style: none;
+}
+.categories li{
+  display: inline-block;
+  color: white;
+  padding: 10px;
+}
+.categories a{
+  text-decoration: none;
+  color: white;
+}
+header input{
+  height: 30px;
+width: 25%;
+}
+header p{
+  font-weight: bold;
+  color: white;
+}
+.headerP{
+  margin-top: 20%
+}
+.yelpBoston{
+  width: 100%;
+text-align: center;
+}
+.cities{
+  list-style: none;
+}
+.cities li{
+  display: inline-block;
+  padding: 10px;
+}
+.cities a{
+  text-decoration: none;
+  color: grey;
+}
+h3{
+  color: red;
+  font-weight: bold;
+}
+
+.hotNewBusinesses{
+  text-align: center;
+}
+.hotNewBusinesses section{
+  float: left;
+  width: 33.3333%;
+}
+.hotNewBusinesses p a{
+  width: 100%;
+  text-align: center;
+  float: left;
+}
+.business p{
+  text-align: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.categoriesSection{
+  height: 300px;
+  width: 100%;
+  background-color: lightgrey;
+  float: left;
+}
+.categoriesSection section{
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.categoriesSection h2{
+  text-align: center;
+  color: red;
+}
+.categoriesSection a{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+@media (min-width:375px) and (max-width: 767px){
+  header{
+    height: 100px;
+    background: none;
+  }
+  .mobileHeader{
+    display: block;
+  }
+.mobileHeader ul{
+  display: block;
+}
+.topBar{
+  display: none;
+}
+.centerHeader{
+  display: none;
+
+}
+.yelpBoston{
+  font-size: .77em;
+}
+.hotNewBusinesses{
+  height: auto;
+  font-size: .77em;
+}
+.hotNewBusinesses section{
+  width: 100%;
+  float: left;
+}
+.categoriesSection section{
+  height: auto;
+  width: 50%;
+  float: left;
+  font-size: .77em;
+}
+.business p{
+  text-align: center;
+}
+
+}
+@media (min-width:768px) and (max-width: 1023px){
+header{
+  height: 600px;
+}
+
+.topBar li{
+  padding: 20px;
+}
+.logInButton{
+  margin-left: 29%;
+}
+
+}
+@media (min-width:1024px) and (max-width: 1440px){
+  .logInButton{
+    margin-left: 49%;
+  }
+}
